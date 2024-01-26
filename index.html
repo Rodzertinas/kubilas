@@ -211,49 +211,6 @@
   </nav>
 
 
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const navLinks = document.querySelectorAll('.nav-link');
-
-        function highlightNav() {
-            const scrollPosition = window.scrollY;
-
-            navLinks.forEach(link => {
-                const targetId = link.getAttribute('href').substring(1);
-                const section = document.getElementById(targetId);
-
-                if (
-                    section.offsetTop <= scrollPosition &&
-                    section.offsetTop + section.offsetHeight > scrollPosition
-                ) {
-                    link.parentElement.classList.add('active');
-                } else {
-                    link.parentElement.classList.remove('active');
-                }
-            });
-        }
-
-        // Add event listeners for scroll
-        window.addEventListener('scroll', highlightNav);
-
-        // Add event listeners for clicks on navigation links
-        navLinks.forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-
-                window.scrollTo({
-                    top: targetElement.offsetTop - 50, // Adjust as needed
-                    behavior: 'smooth'
-                });
-            });
-        });
-    });
-</script>
 
 
 
