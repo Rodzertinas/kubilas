@@ -110,6 +110,7 @@ a {
 
 .nav__item:hover .svgmenu,
 
+
 .nav__item.active .svgmenu {
   opacity: 0.5;
 }
