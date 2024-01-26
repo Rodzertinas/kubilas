@@ -1,0 +1,81 @@
+
+.start_page_tag h1, .titlew{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 21px;
+  margin-bottom: 50px;
+  color: #222427;
+  text-align: center;
+  }
+
+
+  .more_div_all_second p{
+color: rgb(0, 0, 0);
+  }
+  .more_div_all p{
+    font-weight: 100;
+    padding: 12px 0;
+    font-weight: 100;
+    line-height: 17px;
+    font-size: 16px;
+    }
+  
+  .start_page_tag p{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .package_description_p {
+    font-weight: 100;
+    padding: 12px 0;
+    font-weight: 100;
+    line-height: 17px;
+    font-size: 16px;
+  }
+
+  .more_div_all_thirth p{
+    color: #ffffff;
+  }
+  
+  .more_div_all_second p{
+    color: #ffffff;
+  }
+  .gallery-description p,
+  .about-us p,
+  .more_main_title p,
+  .start_page_tag p {
+    font-family: "Georgia", serif; 
+    font-weight: 400; 
+    line-height: 1.6; 
+    font-size: 16px; 
+    margin-bottom: 15px; 
+  
+  }
+  .gallery-description p,
+  .about-us p,
+  .more_main_title p,
+  .start_page_tag p {
+    color: #333; 
+  }
+@media(max-width:500px) {
+    .start_page_tag_div {
+    width: 100%;
+    padding: 10px;
+}
+.start_page_tag h1 {
+  font-size: 30px;
+}
+.start_page_tag p {
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.about-us h2{
+	margin-top: 50px;
+}
+    }
+    @media(max-width:900px) {
+  .about-us h2{
+    margin-top: 50px;
+  }
+      }

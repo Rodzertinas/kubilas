@@ -1,0 +1,96 @@
+
+    :root {
+    --main-color: #171717;
+    --nav--color: #151515;;
+
+   
+  }
+  
+
+  .more_div_all_first {
+    background-image: url(./images/daugiaucard1.jpg);
+}
+.more_div_all_second {
+  background-image: url(./images/daugiaucar2.jpg);
+}
+  .more_div_all_thirth {
+    background-image: url(./images/daugiaucar3.jpg);
+  }
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .star {
+    color: #ffffff;
+    
+  }
+
+  .nav {
+    background: #171717;
+  }
+  .top-bar strong span {
+    color:white;
+  }
+ .logoooasdff a{
+  color: #171717;
+ }
+ .main_overlay_left_contact{
+  background-color: #c20909;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.titlew{
+  color: rgb(26 31 34);
+}
+.nav__label {
+  color: #636363;
+
+}
+.top-bar,  .m-logo {
+  background:  #171717;
+}
+
+  .nav__item {
+    color: #c7cfcf;
+    padding-left: 10px;
+  } 
+  .nav__item, .svgmenu path {
+    fill: #c20909;
+  }
+
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #c20909
+  }
+  
+  ::-moz-scrollbar-thumb {
+    background-color: #c20909
+  }
+  ::selection{
+    /* color: #000000; */
+}

@@ -1,0 +1,42 @@
+.whu_choose_us{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+.whu_choose_us_first, .whu_choose_us_second{
+  align-items: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+@media(max-width:900px) {
+   .whu_choose_us{
+    flex-direction: column-reverse;
+     }
+     .whu_choose_us {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+     .whu_choose_us_first, .whu_choose_us_second {
+    width: 100%;
+}
+.aboutme_images {
+    margin-bottom: 0px;
+    /* width: 100vw; */
+    page: 40px;
+    height: 40vh;
+    background-position: center;
+}
+.about-us {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
+   
+
+
+
+

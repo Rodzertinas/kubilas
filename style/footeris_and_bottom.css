@@ -1,0 +1,358 @@
+.footer_below{
+    display: flex;
+    background: #171717;
+
+}
+
+.footer_below_zero, .footer_below_first, .footer_below_second, .footer_below_thirth{
+padding: 20px;
+width: 33.333333%;
+min-height: 234px;
+}
+  .footer_below_img{
+   width: 30px;
+height: 30px;
+align-items: center;
+justify-content: center;
+display: flex;
+
+  }
+  .footer_below_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 10px;
+    flex-direction: start;
+  }
+
+.footer_below_call_find_mail{
+color: #ffffff;
+font-size: 15px;
+font-weight: 600;
+display: flex;
+align-items: center;
+gap: 10px;
+margin-bottom: 20px;
+  }
+.logoooasdff{
+color: white;
+font-size: 25px;
+font-family: fantasy;
+align-items: center;
+width: 100%;
+
+font-size: 25px;
+font-family: fantasy;
+
+align-items: center;
+width: 100%;
+}
+.footer_logo_p{
+  margin-bottom: 14px;
+  font-size: 11px;
+  color: #7e7e7e;
+  line-height: 11px;
+  /* line-height: 18px; */
+  margin-top: 7px;
+}
+.followus_social{
+color: #7c7c7c;
+display: block;
+font-size: 15px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 10px;
+
+}
+.footer_logor{
+margin-bottom: 20px;
+}
+.ftco-animate {
+list-style: none;
+margin: -4px -2px -3px -11px;
+display: inline-block;
+}
+.information{
+color: #7e7e7e;
+margin-top: 10px;
+}
+
+.tinder {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tinder_img {
+    min-width: 100px;
+    max-height: 50px;
+    object-fit: cover;
+  }
+  
+  
+  .tinder_first,
+  .tinder_second,
+  .tinder_thirth {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  
+  }
+  .bottom {
+    background: #0d0d0d;
+  }
+  
+  .sadweewes svg {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .asdawtrhdtd svg {
+    width: 20px;
+  }
+  
+  .sadweewes {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .weafrgaerewwe {
+    min-height: 200px;
+  
+  }
+  
+  .wervasetyki {
+    bottom: 0;
+    background: #121212;
+    left: 0;
+    right: 0;
+    margin-left: 25vw;
+  
+  }
+  
+  .sdfereretreew {
+    text-align: center;
+  }
+  
+  .sdfereretreew a {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+  
+  }
+  
+  .wefaewfraecdse {
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: row;
+    padding-top: 30px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .copyright {
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #151414;
+    position: relative;
+    padding: 30px;
+  }
+  .footer svg {
+    width: 100px;
+  }
+  
+  .wfqefwqdyt {
+    text-decoration: none;
+  }
+  .logocolor
+  .werwerww {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .footer_main_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    position: relative;
+}
+.footer_main_top_first, .footer_main_top_second, .footer_main_top_thirth {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.footer_main_top_img {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer_main_top_call_find_mail {
+    color: #7e7e7e;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.footer_main_top_p {
+  color: #d9d9d9;
+    font-size: 10px;
+}
+
+.footer_main_top_column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.social_icon{
+  width: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 920px){
+  .footer_main_top {
+flex-direction: column;
+align-items: start;
+padding-left: 20px;
+}
+}
+  .fotersliderimg{
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    
+  }
+  .footer_slider-main {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+  .slide {
+    display: none;
+  }
+  .active_footer_img {
+    display: block;
+  }
+  .main_of_main{
+    margin-bottom: 100px;
+  }
+  .footer_bottoms {
+    display: flex;
+justify-content: space-between;
+justify-content: center;
+align-items: center;
+  }
+  .copyright {
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 12px;
+
+}
+.contact, .accept, .tile_footer, .footer_bottoms, .footer_main_top, .copyright{
+background: #1a1f22;
+padding-bottom: 20px;
+padding-top: 20px;
+
+gap: 20px;
+color: #7e7e7e;
+}
+.tile_footer, .footer_bottoms
+{
+border-bottom: 1px solid rgba(255, 255, 255, 0.349);
+}
+
+  .heart {
+      color: rgb(255, 255, 255);
+  }
+  .social-icons {
+      display: flex;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px;
+    background-size: cover;
+  }
+  
+  .facebook {
+      background-image: url('./svg/facebook.svg'); 
+  }
+  
+  .instagram {
+      background-image: url('./svg/instagram.svg'); 
+  }
+  .youtube {
+      background-image: url('./svg/youtube.svg'); 
+  }
+
+  @media(max-width:900px) {
+    .wervasetyki {
+      margin-left: 0vw;
+  
+  
+    }
+    .copyright {
+      text-align: center;
+      color: #ffffff;
+      padding-bottom: 60px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* margin-top: 10px; */
+      justify-content: center;
+      background: #151414;
+      position: relative;
+      padding: 30px;
+    }
+       
+  }
+@media(max-width:600px) {
+  .footer_below{
+  flex-direction: column;
+    }
+    .footer_below{
+display: flex;
+align-items: flex-start;
+
+}
+.footer_below_zero, .footer_below_first, .footer_below_second, .footer_below_thirth {
+padding: 20px;
+width: 100%;
+min-height: 234px;
+}
+.tinder_first, .tinder_second, .tinder_thirth {
+width: 100%;
+justify-content: center;
+}
+.tinder_img {
+
+width: 100%;
+height: 100px;
+object-fit: cover;
+margin-left: -10px;
+}
+  
+  }
