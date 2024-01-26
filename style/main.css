@@ -210,11 +210,13 @@
 .Vip{
   color: red;
   color: white;
+  font-weight: 100;
 }
 .exclusive{
   font-size: 12px;
   margin-top: -5px;
   color: white;
+  font-weight: 100;
 }
 
 
