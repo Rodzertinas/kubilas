@@ -61,6 +61,7 @@
     padding: 20px;
     background: #0000008f;
     height: 100%;
+    border-radius: 8px;
   }
   .div_img_text_column_svg{
     background: rgb(255, 255, 255);
