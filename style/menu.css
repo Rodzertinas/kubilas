@@ -179,6 +179,13 @@ a {
   font-size: 14px;
   gap: 10px;
 }
+.nav__item:hover{
+  /* color: #c20909; */
+  font-size:17px;
+  transition: ease-in-out 0.1s;
+
+
+}
 
 
 /* .nav__item.active {
