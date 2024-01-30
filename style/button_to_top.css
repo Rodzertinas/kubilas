@@ -1,8 +1,8 @@
 #button {
   display: inline-block;
   background: #c20909;
-  width: 50px;
-  height: 50px;
+  width:60px;
+  height: 60px;
   text-align: center;
   border-radius: 4px;
   
@@ -17,7 +17,7 @@
   }
   .arrow{
     width: 30px;
-    height: 50px;
+    height: 65px;
   }
   #button .arrow:hover{
     transform: translateY(-6px);
