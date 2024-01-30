@@ -25,10 +25,8 @@
 }
 .aboutme_images {
     margin-bottom: 0px;
-    /* width: 100vw; */
-    page: 40px;
-    height: 40vh;
-    background-position: center;
+    height: 60vh;
+    background-position: center center;
 }
 .about-us {
     padding-left: 0px;
